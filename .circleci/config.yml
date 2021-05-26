@@ -7,6 +7,20 @@ orbs:
   # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/python
   python: circleci/python@1.2
 
+
+  print("hello world")
+
+
+
+  g = 28
+  h =  g % 2
+  if  h==0:
+    print("odd number")
+    elif ==1:
+      print("even number")
+      else
+  print("program compiled") 
+
 workflows:
   sample:  # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run. 
